@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "~/Codes/picture/linux-source-4.15.0/arch/x86/include/generated/uapi",
+                "~/Codes/picture/linux-source-4.15.0/include",
+                "~/Codes/picture/linux-source-4.15.0/arch/x86/include",
+                "~/Codes/picture/linux-source-4.15.0/arch/x86/include/generated",
+                // "~/Codes/picture/linux-3.13.11/arch/x86/include/generated/uapi",
+                // "~/Codes/picture/linux-3.13.11/include",
+                // "~/Codes/picture/linux-3.13.11/arch/x86/include",
+                // "~/Codes/picture/linux-3.13.11/arch/x86/include/generated",
+                "${default}"
+            ],
+            "defines": ["_PHX_LINUX", "_PHX_CDA", "_CDA_SG64", "MODULE"],
+            "compilerPath": "/usr/bin/gcc",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,9 @@
+excludes.txt
+sync.sh
+.git
+.gitignore
+*~
+*.o
+*.ko
+*.exe
+*.out
